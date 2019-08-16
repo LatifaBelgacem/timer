@@ -1,0 +1,28 @@
+/* .time-static-container{
+    display: flex;
+    justify-items: center;
+} */
+
+
+.time-container{
+    display:inline-block ;
+    text-align: center;
+}
+.time-inner-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.time-digits{
+  font-size: 4em;
+  /* border:black solid 1px ;   */
+}
+.time-text-item{
+    display:flex;
+    color:grey;
+    font-size: 1em;
+    justify-content: space-between ;
+    flex-direction: row;
+}
